@@ -1,0 +1,53 @@
+/* .content {
+    margin: 20px;
+
+}
+
+h1 {
+    background-color: #F8F9FA;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+#typing {
+    width: 0ch;
+    color: black;
+    float: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(25) 1s infinite alternate;
+}
+
+#typing span {
+    color: #fb8c00;
+}
+
+#line {
+    float: left;
+    color: black;
+    font-weight: bold;
+    font-size: 5vw;
+    animation: crow 0.5s linear 1s infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+
+    to {
+        width: 36ch;
+    }
+}
+
+@keyframes crow {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
